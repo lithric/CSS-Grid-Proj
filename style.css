@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display:grid;
+    width:100vmax;
+    height:61.8vmax;
+    max-height: 100vh;
+    max-width:161.81vmin;
+    background-color:#1C1B1B;
+    grid: "a a b b b c c d e g g"
+          "f f f f h i j d e g g"
+          "f f f f h i j d k k n"
+          "f f f f h l l d k k n"
+          "f f f f m m q d o o n"
+          "p p r r s s q d . . ."
+          "p p r r . . q t t t t"
+}
+
+@media (max-width: 900px) {
+    .container {
+        display:grid;
+        width:97.56vmin;
+        height:100vmin;
+        background-color:#1C1B1B;
+        grid: "a a b b b c c d"
+              "e f f f f g g d"
+              "e f f f f g g d"
+              "h f f f f i j d"
+              "h f f f f i j d"
+              "h k k l l m m d"
+              "n k k o o p p q"
+              "n r r s s p p q"
+              "n r r t t t t q"
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        display:grid;
+        height:100vmax;
+        width:35vh;
+        max-height: 100vh;
+        max-width:135vmin;
+        background-color:#1C1B1B;
+        grid: "a a b b b"
+              "c c d e h"
+              "g g d e h"
+              "g g d i h"
+              "j . d i ."
+              "j . d k k"
+              "l l d k k"
+              "f f f f n"
+              "f f f f n"
+              "f f f f n"
+              "f f f f q"
+              "m m o o q"
+              "m m o o q"
+              "p p r r q"
+              "p p r r ."
+              "s s . . ."
+              "t t t t ."
+    }
+}
+div {
+    border: 6px solid black;
+    overflow: hidden;
+}
+
+img {
+    width:100%;
+    height:100%;
+}
+
+body div.container {
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border: none;
+}
+
+.div1 {
+    grid-area: a;
+}
+.div2 {
+    grid-area: b;
+}
+.div3 {
+    grid-area: c;
+}
+.div4 {
+    grid-area: d;
+}
+.div5 {
+    grid-area: e;
+}
+.div6 {
+    grid-area: f;
+}
+.div7 {
+    grid-area: g;
+}
+.div8 {
+    grid-area: h;
+}
+.div9 {
+    grid-area: i;
+}
+.div10 {
+    grid-area: j;
+}
+.div11 {
+    grid-area: k;
+}
+.div12 {
+    grid-area: l;
+}
+.div13 {
+    grid-area: m;
+}
+.div14 {
+    grid-area: n;
+}
+.div15 {
+    grid-area: o;
+}
+.div16 {
+    grid-area: p;
+}
+.div17 {
+    grid-area: q;
+}
+.div18 {
+    grid-area: r;
+}
+.div19 {
+    grid-area: s;
+}
+.div20 {
+    grid-area: t;
+}
